@@ -1,3 +1,4 @@
+
 def add(a,b):
     print(a+b)
 def sub(a,b):
@@ -9,3 +10,4 @@ def div(a,b):
 
 a = int(input('enter first no :'))
 b = int(input('enter second no :'))
+
