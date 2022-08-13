@@ -15,3 +15,4 @@ while len(result)<18:
         length = ''
     
 print(result[0:-1])
+
