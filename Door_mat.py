@@ -10,7 +10,7 @@ Size: 7 x 21
     ---------.|.---------
 '''
 
-n,m = map(int,input().split())
+n,m = map(int,input('enter size of mat with space').split())
 for i in range(1,n,2):
     print(('.|.'*i).center(m,'-'))
 
