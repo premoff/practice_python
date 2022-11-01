@@ -9,12 +9,13 @@ Size: 7 x 21
     ------.|..|..|.------
     ---------.|.---------
 '''
+#for better result  column input shoud be  c = 3 x row
 
-n,m = map(int,input('enter size of mat with space').split())
-for i in range(1,n,2):
-    print(('.|.'*i).center(m,'-'))
+row,column = map(int,input('enter size of mat with space').split())
+for i in range(1,row,2):
+    print(('.|.'*i).center(column,'-'))
 
-print('WELCOME'.center(m,'-'))
+print('WELCOME'.center(column,'-'))
 
-for i in range(n-2,0,-2):
-  print(('.|.'*i).center(m,'-'))
+for i in range(row-2,0,-2):
+  print(('.|.'*i).center(column,'-'))
