@@ -17,4 +17,4 @@ for i in range(999,99,-1):  # iterate from high to low
         if reverse==temp:
             print(f'the largest palindrom made from the product of two 3-digit number is {i*j} = {i} x {j}')
             x = True
-            break       # terminate for loop 
+            break       # terminate for loop
