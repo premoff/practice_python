@@ -16,4 +16,4 @@ for j in range(1,n+1):
 
 difference = square_of_sum**2 - sum_of_squares
 print(f'square of sum = {square_of_sum**2} \nsum of square = {sum_of_squares}')
-print(f' {square_of_sum**2} - {sum_of_squares} = {difference}')
+print(f'Difference {square_of_sum**2} - {sum_of_squares} = {difference}')
