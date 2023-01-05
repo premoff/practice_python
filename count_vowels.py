@@ -1,3 +1,4 @@
+# count the vowels for given string
 vowels = 'aeiouAEIOU'
 s = input('enter a string : ')
 
